@@ -1,14 +1,18 @@
 #pestaña{
     background-color: #737373;
-    padding: 20px 35px 20px 30px;
-    margin-left: 250px;
-    margin-right: 250px;
+    box-sizing: content-box;
+    width: 100%;
+    margin-left:10% ;
+    margin-right:10% ;
+
+
     
 }
 
 #tablagris{
     background-color: #737373;
-    margin-left: 250px;
-    margin-right: 250px; 
-    padding: 350px 20px 350px 20px;
+    box-sizing: content-box;
+    width: 70%;
+    margin-left:10% ;
+    margin-right:10% ;
 }
