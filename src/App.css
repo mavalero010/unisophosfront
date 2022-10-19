@@ -9,12 +9,66 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    
+    padding: 25px;
   }
 }
 
+#InitLabel1{
+  background-color: white;
+  text-decoration-color: #737373;
+  color: #737373;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+  padding: 10px;
+ 
+  border-radius:  15px;
+}
+
+#ButtonInitLabel{
+  border-radius:1000px;
+  background-color: white;
+  border-style: solid;
+  border-color: #737373;
+  color: #737373;
+  size: 100px;
+  padding: 10px;
+  
+  margin-top: 50px;
+  margin-left: 0ch;
+}
+
+#InputAreaInitLabel2{
+  background-color: white;
+  font-weight:100;
+  color: #737373;
+  margin: 50px;
+  size: 100px;
+  border-width:5px ;
+  
+}
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 80px 0;
+  padding-right: 20px;
+  box-sizing:content-box;
+}
+
+#InitLabel2{
+  background-color: white;
+  text-decoration-color: #737373;
+  color: #737373;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+  padding: 10px;
+  margin: 20px;
+  margin-right: 0px;
+  border-style:solid ;
+  border-radius:  120px;
+}
 .App-header {
-  background-color: #282c34;
+  background-color: #FF8836;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +82,3 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
