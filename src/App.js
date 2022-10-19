@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import log from './recursos/imagenes/UniSophosLogo.png';
 import './componentes/estilos/Frame1.css';
 import { FaBeer } from 'react-icons/fa';
@@ -13,9 +13,7 @@ function App() {
         <div>
         <label  id="InitLabel2">INGRESE NIT DE UNIVERSIDAD PARA INICIAR SESIÓN</label>
           <button id="ButtonInitLabel"><FiArrowRight /></button>
-        </div>
-       
-        <input type="text" id="InputAreaInitLabel2" ></input>
+        </div> <input type="text" id="InputAreaInitLabel2" ></input>
         
 
       </header>
